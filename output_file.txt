@@ -1,0 +1,696 @@
+file: gcc.trace frames: 2 replacement: lru 
+page fault rate:      0.4040
+file: gcc.trace frames: 2 replacement: clock 
+page fault rate:      0.4609
+file: gcc.trace frames: 2 replacement: rand 
+page fault rate:      0.4672
+file: gcc.trace frames: 4 replacement: lru 
+page fault rate:      0.2438
+file: gcc.trace frames: 4 replacement: clock 
+page fault rate:      0.2770
+file: gcc.trace frames: 4 replacement: rand 
+page fault rate:      0.3157
+file: gcc.trace frames: 6 replacement: lru 
+page fault rate:      0.1992
+file: gcc.trace frames: 6 replacement: clock 
+page fault rate:      0.2145
+file: gcc.trace frames: 6 replacement: rand 
+page fault rate:      0.2534
+file: gcc.trace frames: 8 replacement: lru 
+page fault rate:      0.1712
+file: gcc.trace frames: 8 replacement: clock 
+page fault rate:      0.1819
+file: gcc.trace frames: 8 replacement: rand 
+page fault rate:      0.2169
+file: gcc.trace frames: 10 replacement: lru 
+page fault rate:      0.1507
+file: gcc.trace frames: 10 replacement: clock 
+page fault rate:      0.1587
+file: gcc.trace frames: 10 replacement: rand 
+page fault rate:      0.1922
+file: gcc.trace frames: 12 replacement: lru 
+page fault rate:      0.1354
+file: gcc.trace frames: 12 replacement: clock 
+page fault rate:      0.1425
+file: gcc.trace frames: 12 replacement: rand 
+page fault rate:      0.1745
+file: gcc.trace frames: 14 replacement: lru 
+page fault rate:      0.1247
+file: gcc.trace frames: 14 replacement: clock 
+page fault rate:      0.1306
+file: gcc.trace frames: 14 replacement: rand 
+page fault rate:      0.1609
+file: gcc.trace frames: 16 replacement: lru 
+page fault rate:      0.1166
+file: gcc.trace frames: 16 replacement: clock 
+page fault rate:      0.1217
+file: gcc.trace frames: 16 replacement: rand 
+page fault rate:      0.1504
+file: gcc.trace frames: 18 replacement: lru 
+page fault rate:      0.1104
+file: gcc.trace frames: 18 replacement: clock 
+page fault rate:      0.1146
+file: gcc.trace frames: 18 replacement: rand 
+page fault rate:      0.1418
+file: gcc.trace frames: 20 replacement: lru 
+page fault rate:      0.1051
+file: gcc.trace frames: 20 replacement: clock 
+page fault rate:      0.1090
+file: gcc.trace frames: 20 replacement: rand 
+page fault rate:      0.1348
+file: gcc.trace frames: 22 replacement: lru 
+page fault rate:      0.1008
+file: gcc.trace frames: 22 replacement: clock 
+page fault rate:      0.1045
+file: gcc.trace frames: 22 replacement: rand 
+page fault rate:      0.1280
+file: gcc.trace frames: 24 replacement: lru 
+page fault rate:      0.0971
+file: gcc.trace frames: 24 replacement: clock 
+page fault rate:      0.1004
+file: gcc.trace frames: 24 replacement: rand 
+page fault rate:      0.1230
+file: gcc.trace frames: 26 replacement: lru 
+page fault rate:      0.0935
+file: gcc.trace frames: 26 replacement: clock 
+page fault rate:      0.0967
+file: gcc.trace frames: 26 replacement: rand 
+page fault rate:      0.1181
+file: gcc.trace frames: 28 replacement: lru 
+page fault rate:      0.0902
+file: gcc.trace frames: 28 replacement: clock 
+page fault rate:      0.0934
+file: gcc.trace frames: 28 replacement: rand 
+page fault rate:      0.1136
+file: gcc.trace frames: 30 replacement: lru 
+page fault rate:      0.0872
+file: gcc.trace frames: 30 replacement: clock 
+page fault rate:      0.0905
+file: gcc.trace frames: 30 replacement: rand 
+page fault rate:      0.1100
+file: gcc.trace frames: 32 replacement: lru 
+page fault rate:      0.0844
+file: gcc.trace frames: 32 replacement: clock 
+page fault rate:      0.0877
+file: gcc.trace frames: 32 replacement: rand 
+page fault rate:      0.1066
+file: gcc.trace frames: 34 replacement: lru 
+page fault rate:      0.0819
+file: gcc.trace frames: 34 replacement: clock 
+page fault rate:      0.0851
+file: gcc.trace frames: 34 replacement: rand 
+page fault rate:      0.1037
+file: gcc.trace frames: 36 replacement: lru 
+page fault rate:      0.0796
+file: gcc.trace frames: 36 replacement: clock 
+page fault rate:      0.0827
+file: gcc.trace frames: 36 replacement: rand 
+page fault rate:      0.1006
+file: gcc.trace frames: 38 replacement: lru 
+page fault rate:      0.0775
+file: gcc.trace frames: 38 replacement: clock 
+page fault rate:      0.0804
+file: gcc.trace frames: 38 replacement: rand 
+page fault rate:      0.0977
+file: gcc.trace frames: 40 replacement: lru 
+page fault rate:      0.0756
+file: gcc.trace frames: 40 replacement: clock 
+page fault rate:      0.0783
+file: gcc.trace frames: 40 replacement: rand 
+page fault rate:      0.0955
+file: gcc.trace frames: 42 replacement: lru 
+page fault rate:      0.0737
+file: gcc.trace frames: 42 replacement: clock 
+page fault rate:      0.0765
+file: gcc.trace frames: 42 replacement: rand 
+page fault rate:      0.0934
+file: gcc.trace frames: 44 replacement: lru 
+page fault rate:      0.0720
+file: gcc.trace frames: 44 replacement: clock 
+page fault rate:      0.0748
+file: gcc.trace frames: 44 replacement: rand 
+page fault rate:      0.0910
+file: gcc.trace frames: 46 replacement: lru 
+page fault rate:      0.0704
+file: gcc.trace frames: 46 replacement: clock 
+page fault rate:      0.0732
+file: gcc.trace frames: 46 replacement: rand 
+page fault rate:      0.0890
+file: gcc.trace frames: 48 replacement: lru 
+page fault rate:      0.0688
+file: gcc.trace frames: 48 replacement: clock 
+page fault rate:      0.0716
+file: gcc.trace frames: 48 replacement: rand 
+page fault rate:      0.0872
+file: gcc.trace frames: 50 replacement: lru 
+page fault rate:      0.0673
+file: gcc.trace frames: 50 replacement: clock 
+page fault rate:      0.0702
+file: gcc.trace frames: 50 replacement: rand 
+page fault rate:      0.0857
+file: gcc.trace frames: 52 replacement: lru 
+page fault rate:      0.0659
+file: gcc.trace frames: 52 replacement: clock 
+page fault rate:      0.0688
+file: gcc.trace frames: 52 replacement: rand 
+page fault rate:      0.0836
+file: gcc.trace frames: 54 replacement: lru 
+page fault rate:      0.0647
+file: gcc.trace frames: 54 replacement: clock 
+page fault rate:      0.0674
+file: gcc.trace frames: 54 replacement: rand 
+page fault rate:      0.0820
+file: gcc.trace frames: 56 replacement: lru 
+page fault rate:      0.0635
+file: gcc.trace frames: 56 replacement: clock 
+page fault rate:      0.0663
+file: gcc.trace frames: 56 replacement: rand 
+page fault rate:      0.0805
+file: gcc.trace frames: 58 replacement: lru 
+page fault rate:      0.0623
+file: gcc.trace frames: 58 replacement: clock 
+page fault rate:      0.0650
+file: gcc.trace frames: 58 replacement: rand 
+page fault rate:      0.0793
+file: bzip.trace frames: 2 replacement: lru 
+page fault rate:      0.1544
+file: bzip.trace frames: 2 replacement: clock 
+page fault rate:      0.2288
+file: bzip.trace frames: 2 replacement: rand 
+page fault rate:      0.2423
+file: bzip.trace frames: 4 replacement: lru 
+page fault rate:      0.0928
+file: bzip.trace frames: 4 replacement: clock 
+page fault rate:      0.1114
+file: bzip.trace frames: 4 replacement: rand 
+page fault rate:      0.1317
+file: bzip.trace frames: 6 replacement: lru 
+page fault rate:      0.0436
+file: bzip.trace frames: 6 replacement: clock 
+page fault rate:      0.0634
+file: bzip.trace frames: 6 replacement: rand 
+page fault rate:      0.0769
+file: bzip.trace frames: 8 replacement: lru 
+page fault rate:      0.0307
+file: bzip.trace frames: 8 replacement: clock 
+page fault rate:      0.0462
+file: bzip.trace frames: 8 replacement: rand 
+page fault rate:      0.0441
+file: bzip.trace frames: 10 replacement: lru 
+page fault rate:      0.0171
+file: bzip.trace frames: 10 replacement: clock 
+page fault rate:      0.0292
+file: bzip.trace frames: 10 replacement: rand 
+page fault rate:      0.0174
+file: bzip.trace frames: 12 replacement: lru 
+page fault rate:      0.0039
+file: bzip.trace frames: 12 replacement: clock 
+page fault rate:      0.0041
+file: bzip.trace frames: 12 replacement: rand 
+page fault rate:      0.0055
+file: bzip.trace frames: 14 replacement: lru 
+page fault rate:      0.0036
+file: bzip.trace frames: 14 replacement: clock 
+page fault rate:      0.0037
+file: bzip.trace frames: 14 replacement: rand 
+page fault rate:      0.0050
+file: bzip.trace frames: 16 replacement: lru 
+page fault rate:      0.0033
+file: bzip.trace frames: 16 replacement: clock 
+page fault rate:      0.0035
+file: bzip.trace frames: 16 replacement: rand 
+page fault rate:      0.0045
+file: bzip.trace frames: 18 replacement: lru 
+page fault rate:      0.0032
+file: bzip.trace frames: 18 replacement: clock 
+page fault rate:      0.0033
+file: bzip.trace frames: 18 replacement: rand 
+page fault rate:      0.0041
+file: bzip.trace frames: 20 replacement: lru 
+page fault rate:      0.0030
+file: bzip.trace frames: 20 replacement: clock 
+page fault rate:      0.0032
+file: bzip.trace frames: 20 replacement: rand 
+page fault rate:      0.0038
+file: bzip.trace frames: 22 replacement: lru 
+page fault rate:      0.0029
+file: bzip.trace frames: 22 replacement: clock 
+page fault rate:      0.0030
+file: bzip.trace frames: 22 replacement: rand 
+page fault rate:      0.0035
+file: bzip.trace frames: 24 replacement: lru 
+page fault rate:      0.0027
+file: bzip.trace frames: 24 replacement: clock 
+page fault rate:      0.0029
+file: bzip.trace frames: 24 replacement: rand 
+page fault rate:      0.0033
+file: bzip.trace frames: 26 replacement: lru 
+page fault rate:      0.0025
+file: bzip.trace frames: 26 replacement: clock 
+page fault rate:      0.0028
+file: bzip.trace frames: 26 replacement: rand 
+page fault rate:      0.0031
+file: bzip.trace frames: 28 replacement: lru 
+page fault rate:      0.0023
+file: bzip.trace frames: 28 replacement: clock 
+page fault rate:      0.0024
+file: bzip.trace frames: 28 replacement: rand 
+page fault rate:      0.0029
+file: bzip.trace frames: 30 replacement: lru 
+page fault rate:      0.0022
+file: bzip.trace frames: 30 replacement: clock 
+page fault rate:      0.0024
+file: bzip.trace frames: 30 replacement: rand 
+page fault rate:      0.0027
+file: bzip.trace frames: 32 replacement: lru 
+page fault rate:      0.0021
+file: bzip.trace frames: 32 replacement: clock 
+page fault rate:      0.0022
+file: bzip.trace frames: 32 replacement: rand 
+page fault rate:      0.0026
+file: bzip.trace frames: 34 replacement: lru 
+page fault rate:      0.0019
+file: bzip.trace frames: 34 replacement: clock 
+page fault rate:      0.0020
+file: bzip.trace frames: 34 replacement: rand 
+page fault rate:      0.0025
+file: bzip.trace frames: 36 replacement: lru 
+page fault rate:      0.0019
+file: bzip.trace frames: 36 replacement: clock 
+page fault rate:      0.0019
+file: bzip.trace frames: 36 replacement: rand 
+page fault rate:      0.0023
+file: bzip.trace frames: 38 replacement: lru 
+page fault rate:      0.0018
+file: bzip.trace frames: 38 replacement: clock 
+page fault rate:      0.0018
+file: bzip.trace frames: 38 replacement: rand 
+page fault rate:      0.0023
+file: bzip.trace frames: 40 replacement: lru 
+page fault rate:      0.0017
+file: bzip.trace frames: 40 replacement: clock 
+page fault rate:      0.0017
+file: bzip.trace frames: 40 replacement: rand 
+page fault rate:      0.0021
+file: bzip.trace frames: 42 replacement: lru 
+page fault rate:      0.0016
+file: bzip.trace frames: 42 replacement: clock 
+page fault rate:      0.0017
+file: bzip.trace frames: 42 replacement: rand 
+page fault rate:      0.0021
+file: bzip.trace frames: 44 replacement: lru 
+page fault rate:      0.0016
+file: bzip.trace frames: 44 replacement: clock 
+page fault rate:      0.0017
+file: bzip.trace frames: 44 replacement: rand 
+page fault rate:      0.0021
+file: bzip.trace frames: 46 replacement: lru 
+page fault rate:      0.0015
+file: bzip.trace frames: 46 replacement: clock 
+page fault rate:      0.0016
+file: bzip.trace frames: 46 replacement: rand 
+page fault rate:      0.0020
+file: bzip.trace frames: 48 replacement: lru 
+page fault rate:      0.0015
+file: bzip.trace frames: 48 replacement: clock 
+page fault rate:      0.0016
+file: bzip.trace frames: 48 replacement: rand 
+page fault rate:      0.0019
+file: bzip.trace frames: 50 replacement: lru 
+page fault rate:      0.0014
+file: bzip.trace frames: 50 replacement: clock 
+page fault rate:      0.0015
+file: bzip.trace frames: 50 replacement: rand 
+page fault rate:      0.0018
+file: bzip.trace frames: 52 replacement: lru 
+page fault rate:      0.0014
+file: bzip.trace frames: 52 replacement: clock 
+page fault rate:      0.0015
+file: bzip.trace frames: 52 replacement: rand 
+page fault rate:      0.0019
+file: bzip.trace frames: 54 replacement: lru 
+page fault rate:      0.0014
+file: bzip.trace frames: 54 replacement: clock 
+page fault rate:      0.0015
+file: bzip.trace frames: 54 replacement: rand 
+page fault rate:      0.0018
+file: bzip.trace frames: 56 replacement: lru 
+page fault rate:      0.0013
+file: bzip.trace frames: 56 replacement: clock 
+page fault rate:      0.0014
+file: bzip.trace frames: 56 replacement: rand 
+page fault rate:      0.0018
+file: bzip.trace frames: 58 replacement: lru 
+page fault rate:      0.0013
+file: bzip.trace frames: 58 replacement: clock 
+page fault rate:      0.0014
+file: bzip.trace frames: 58 replacement: rand 
+page fault rate:      0.0017
+file: sixpack.trace frames: 2 replacement: lru 
+page fault rate:      0.4832
+file: sixpack.trace frames: 2 replacement: clock 
+page fault rate:      0.5292
+file: sixpack.trace frames: 2 replacement: rand 
+page fault rate:      0.5428
+file: sixpack.trace frames: 4 replacement: lru 
+page fault rate:      0.2826
+file: sixpack.trace frames: 4 replacement: clock 
+page fault rate:      0.3294
+file: sixpack.trace frames: 4 replacement: rand 
+page fault rate:      0.3552
+file: sixpack.trace frames: 6 replacement: lru 
+page fault rate:      0.2073
+file: sixpack.trace frames: 6 replacement: clock 
+page fault rate:      0.2360
+file: sixpack.trace frames: 6 replacement: rand 
+page fault rate:      0.2768
+file: sixpack.trace frames: 8 replacement: lru 
+page fault rate:      0.1765
+file: sixpack.trace frames: 8 replacement: clock 
+page fault rate:      0.1918
+file: sixpack.trace frames: 8 replacement: rand 
+page fault rate:      0.2309
+file: sixpack.trace frames: 10 replacement: lru 
+page fault rate:      0.1547
+file: sixpack.trace frames: 10 replacement: clock 
+page fault rate:      0.1642
+file: sixpack.trace frames: 10 replacement: rand 
+page fault rate:      0.1998
+file: sixpack.trace frames: 12 replacement: lru 
+page fault rate:      0.1356
+file: sixpack.trace frames: 12 replacement: clock 
+page fault rate:      0.1431
+file: sixpack.trace frames: 12 replacement: rand 
+page fault rate:      0.1768
+file: sixpack.trace frames: 14 replacement: lru 
+page fault rate:      0.1201
+file: sixpack.trace frames: 14 replacement: clock 
+page fault rate:      0.1275
+file: sixpack.trace frames: 14 replacement: rand 
+page fault rate:      0.1593
+file: sixpack.trace frames: 16 replacement: lru 
+page fault rate:      0.1087
+file: sixpack.trace frames: 16 replacement: clock 
+page fault rate:      0.1152
+file: sixpack.trace frames: 16 replacement: rand 
+page fault rate:      0.1444
+file: sixpack.trace frames: 18 replacement: lru 
+page fault rate:      0.0997
+file: sixpack.trace frames: 18 replacement: clock 
+page fault rate:      0.1052
+file: sixpack.trace frames: 18 replacement: rand 
+page fault rate:      0.1335
+file: sixpack.trace frames: 20 replacement: lru 
+page fault rate:      0.0923
+file: sixpack.trace frames: 20 replacement: clock 
+page fault rate:      0.0973
+file: sixpack.trace frames: 20 replacement: rand 
+page fault rate:      0.1241
+file: sixpack.trace frames: 22 replacement: lru 
+page fault rate:      0.0861
+file: sixpack.trace frames: 22 replacement: clock 
+page fault rate:      0.0906
+file: sixpack.trace frames: 22 replacement: rand 
+page fault rate:      0.1159
+file: sixpack.trace frames: 24 replacement: lru 
+page fault rate:      0.0811
+file: sixpack.trace frames: 24 replacement: clock 
+page fault rate:      0.0853
+file: sixpack.trace frames: 24 replacement: rand 
+page fault rate:      0.1092
+file: sixpack.trace frames: 26 replacement: lru 
+page fault rate:      0.0769
+file: sixpack.trace frames: 26 replacement: clock 
+page fault rate:      0.0808
+file: sixpack.trace frames: 26 replacement: rand 
+page fault rate:      0.1029
+file: sixpack.trace frames: 28 replacement: lru 
+page fault rate:      0.0733
+file: sixpack.trace frames: 28 replacement: clock 
+page fault rate:      0.0769
+file: sixpack.trace frames: 28 replacement: rand 
+page fault rate:      0.0978
+file: sixpack.trace frames: 30 replacement: lru 
+page fault rate:      0.0704
+file: sixpack.trace frames: 30 replacement: clock 
+page fault rate:      0.0737
+file: sixpack.trace frames: 30 replacement: rand 
+page fault rate:      0.0925
+file: sixpack.trace frames: 32 replacement: lru 
+page fault rate:      0.0677
+file: sixpack.trace frames: 32 replacement: clock 
+page fault rate:      0.0708
+file: sixpack.trace frames: 32 replacement: rand 
+page fault rate:      0.0889
+file: sixpack.trace frames: 34 replacement: lru 
+page fault rate:      0.0654
+file: sixpack.trace frames: 34 replacement: clock 
+page fault rate:      0.0683
+file: sixpack.trace frames: 34 replacement: rand 
+page fault rate:      0.0848
+file: sixpack.trace frames: 36 replacement: lru 
+page fault rate:      0.0633
+file: sixpack.trace frames: 36 replacement: clock 
+page fault rate:      0.0661
+file: sixpack.trace frames: 36 replacement: rand 
+page fault rate:      0.0812
+file: sixpack.trace frames: 38 replacement: lru 
+page fault rate:      0.0613
+file: sixpack.trace frames: 38 replacement: clock 
+page fault rate:      0.0640
+file: sixpack.trace frames: 38 replacement: rand 
+page fault rate:      0.0781
+file: sixpack.trace frames: 40 replacement: lru 
+page fault rate:      0.0596
+file: sixpack.trace frames: 40 replacement: clock 
+page fault rate:      0.0621
+file: sixpack.trace frames: 40 replacement: rand 
+page fault rate:      0.0754
+file: sixpack.trace frames: 42 replacement: lru 
+page fault rate:      0.0579
+file: sixpack.trace frames: 42 replacement: clock 
+page fault rate:      0.0604
+file: sixpack.trace frames: 42 replacement: rand 
+page fault rate:      0.0724
+file: sixpack.trace frames: 44 replacement: lru 
+page fault rate:      0.0564
+file: sixpack.trace frames: 44 replacement: clock 
+page fault rate:      0.0589
+file: sixpack.trace frames: 44 replacement: rand 
+page fault rate:      0.0699
+file: sixpack.trace frames: 46 replacement: lru 
+page fault rate:      0.0551
+file: sixpack.trace frames: 46 replacement: clock 
+page fault rate:      0.0576
+file: sixpack.trace frames: 46 replacement: rand 
+page fault rate:      0.0671
+file: sixpack.trace frames: 48 replacement: lru 
+page fault rate:      0.0538
+file: sixpack.trace frames: 48 replacement: clock 
+page fault rate:      0.0562
+file: sixpack.trace frames: 48 replacement: rand 
+page fault rate:      0.0656
+file: sixpack.trace frames: 50 replacement: lru 
+page fault rate:      0.0527
+file: sixpack.trace frames: 50 replacement: clock 
+page fault rate:      0.0551
+file: sixpack.trace frames: 50 replacement: rand 
+page fault rate:      0.0633
+file: sixpack.trace frames: 52 replacement: lru 
+page fault rate:      0.0517
+file: sixpack.trace frames: 52 replacement: clock 
+page fault rate:      0.0539
+file: sixpack.trace frames: 52 replacement: rand 
+page fault rate:      0.0615
+file: sixpack.trace frames: 54 replacement: lru 
+page fault rate:      0.0506
+file: sixpack.trace frames: 54 replacement: clock 
+page fault rate:      0.0525
+file: sixpack.trace frames: 54 replacement: rand 
+page fault rate:      0.0595
+file: sixpack.trace frames: 56 replacement: lru 
+page fault rate:      0.0494
+file: sixpack.trace frames: 56 replacement: clock 
+page fault rate:      0.0509
+file: sixpack.trace frames: 56 replacement: rand 
+page fault rate:      0.0579
+file: sixpack.trace frames: 58 replacement: lru 
+page fault rate:      0.0479
+file: sixpack.trace frames: 58 replacement: clock 
+page fault rate:      0.0488
+file: sixpack.trace frames: 58 replacement: rand 
+page fault rate:      0.0562
+file: swim.trace frames: 2 replacement: lru 
+page fault rate:      0.4707
+file: swim.trace frames: 2 replacement: clock 
+page fault rate:      0.5415
+file: swim.trace frames: 2 replacement: rand 
+page fault rate:      0.5577
+file: swim.trace frames: 4 replacement: lru 
+page fault rate:      0.3469
+file: swim.trace frames: 4 replacement: clock 
+page fault rate:      0.3807
+file: swim.trace frames: 4 replacement: rand 
+page fault rate:      0.4284
+file: swim.trace frames: 6 replacement: lru 
+page fault rate:      0.3110
+file: swim.trace frames: 6 replacement: clock 
+page fault rate:      0.3229
+file: swim.trace frames: 6 replacement: rand 
+page fault rate:      0.3664
+file: swim.trace frames: 8 replacement: lru 
+page fault rate:      0.2854
+file: swim.trace frames: 8 replacement: clock 
+page fault rate:      0.2935
+file: swim.trace frames: 8 replacement: rand 
+page fault rate:      0.3212
+file: swim.trace frames: 10 replacement: lru 
+page fault rate:      0.2577
+file: swim.trace frames: 10 replacement: clock 
+page fault rate:      0.2648
+file: swim.trace frames: 10 replacement: rand 
+page fault rate:      0.2836
+file: swim.trace frames: 12 replacement: lru 
+page fault rate:      0.2258
+file: swim.trace frames: 12 replacement: clock 
+page fault rate:      0.2364
+file: swim.trace frames: 12 replacement: rand 
+page fault rate:      0.2502
+file: swim.trace frames: 14 replacement: lru 
+page fault rate:      0.1959
+file: swim.trace frames: 14 replacement: clock 
+page fault rate:      0.2156
+file: swim.trace frames: 14 replacement: rand 
+page fault rate:      0.2213
+file: swim.trace frames: 16 replacement: lru 
+page fault rate:      0.1720
+file: swim.trace frames: 16 replacement: clock 
+page fault rate:      0.1918
+file: swim.trace frames: 16 replacement: rand 
+page fault rate:      0.1949
+file: swim.trace frames: 18 replacement: lru 
+page fault rate:      0.1474
+file: swim.trace frames: 18 replacement: clock 
+page fault rate:      0.1579
+file: swim.trace frames: 18 replacement: rand 
+page fault rate:      0.1727
+file: swim.trace frames: 20 replacement: lru 
+page fault rate:      0.1159
+file: swim.trace frames: 20 replacement: clock 
+page fault rate:      0.1276
+file: swim.trace frames: 20 replacement: rand 
+page fault rate:      0.1526
+file: swim.trace frames: 22 replacement: lru 
+page fault rate:      0.0904
+file: swim.trace frames: 22 replacement: clock 
+page fault rate:      0.1062
+file: swim.trace frames: 22 replacement: rand 
+page fault rate:      0.1365
+file: swim.trace frames: 24 replacement: lru 
+page fault rate:      0.0759
+file: swim.trace frames: 24 replacement: clock 
+page fault rate:      0.0893
+file: swim.trace frames: 24 replacement: rand 
+page fault rate:      0.1221
+file: swim.trace frames: 26 replacement: lru 
+page fault rate:      0.0662
+file: swim.trace frames: 26 replacement: clock 
+page fault rate:      0.0760
+file: swim.trace frames: 26 replacement: rand 
+page fault rate:      0.1100
+file: swim.trace frames: 28 replacement: lru 
+page fault rate:      0.0584
+file: swim.trace frames: 28 replacement: clock 
+page fault rate:      0.0661
+file: swim.trace frames: 28 replacement: rand 
+page fault rate:      0.1001
+file: swim.trace frames: 30 replacement: lru 
+page fault rate:      0.0526
+file: swim.trace frames: 30 replacement: clock 
+page fault rate:      0.0588
+file: swim.trace frames: 30 replacement: rand 
+page fault rate:      0.0910
+file: swim.trace frames: 32 replacement: lru 
+page fault rate:      0.0483
+file: swim.trace frames: 32 replacement: clock 
+page fault rate:      0.0530
+file: swim.trace frames: 32 replacement: rand 
+page fault rate:      0.0835
+file: swim.trace frames: 34 replacement: lru 
+page fault rate:      0.0447
+file: swim.trace frames: 34 replacement: clock 
+page fault rate:      0.0485
+file: swim.trace frames: 34 replacement: rand 
+page fault rate:      0.0772
+file: swim.trace frames: 36 replacement: lru 
+page fault rate:      0.0416
+file: swim.trace frames: 36 replacement: clock 
+page fault rate:      0.0448
+file: swim.trace frames: 36 replacement: rand 
+page fault rate:      0.0715
+file: swim.trace frames: 38 replacement: lru 
+page fault rate:      0.0389
+file: swim.trace frames: 38 replacement: clock 
+page fault rate:      0.0416
+file: swim.trace frames: 38 replacement: rand 
+page fault rate:      0.0671
+file: swim.trace frames: 40 replacement: lru 
+page fault rate:      0.0365
+file: swim.trace frames: 40 replacement: clock 
+page fault rate:      0.0388
+file: swim.trace frames: 40 replacement: rand 
+page fault rate:      0.0621
+file: swim.trace frames: 42 replacement: lru 
+page fault rate:      0.0344
+file: swim.trace frames: 42 replacement: clock 
+page fault rate:      0.0365
+file: swim.trace frames: 42 replacement: rand 
+page fault rate:      0.0583
+file: swim.trace frames: 44 replacement: lru 
+page fault rate:      0.0325
+file: swim.trace frames: 44 replacement: clock 
+page fault rate:      0.0345
+file: swim.trace frames: 44 replacement: rand 
+page fault rate:      0.0547
+file: swim.trace frames: 46 replacement: lru 
+page fault rate:      0.0308
+file: swim.trace frames: 46 replacement: clock 
+page fault rate:      0.0326
+file: swim.trace frames: 46 replacement: rand 
+page fault rate:      0.0521
+file: swim.trace frames: 48 replacement: lru 
+page fault rate:      0.0294
+file: swim.trace frames: 48 replacement: clock 
+page fault rate:      0.0310
+file: swim.trace frames: 48 replacement: rand 
+page fault rate:      0.0494
+file: swim.trace frames: 50 replacement: lru 
+page fault rate:      0.0280
+file: swim.trace frames: 50 replacement: clock 
+page fault rate:      0.0295
+file: swim.trace frames: 50 replacement: rand 
+page fault rate:      0.0472
+file: swim.trace frames: 52 replacement: lru 
+page fault rate:      0.0267
+file: swim.trace frames: 52 replacement: clock 
+page fault rate:      0.0281
+file: swim.trace frames: 52 replacement: rand 
+page fault rate:      0.0447
+file: swim.trace frames: 54 replacement: lru 
+page fault rate:      0.0256
+file: swim.trace frames: 54 replacement: clock 
+page fault rate:      0.0270
+file: swim.trace frames: 54 replacement: rand 
+page fault rate:      0.0430
+file: swim.trace frames: 56 replacement: lru 
+page fault rate:      0.0246
+file: swim.trace frames: 56 replacement: clock 
+page fault rate:      0.0259
+file: swim.trace frames: 56 replacement: rand 
+page fault rate:      0.0410
+file: swim.trace frames: 58 replacement: lru 
+page fault rate:      0.0237
+file: swim.trace frames: 58 replacement: clock 
+page fault rate:      0.0248
+file: swim.trace frames: 58 replacement: rand 
+page fault rate:      0.0395
