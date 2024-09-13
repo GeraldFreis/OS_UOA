@@ -12,7 +12,7 @@ typedef struct {
 } page;
 
 
-enum    repl { random, fifo, lru, clock};
+enum    repl { ran, fifo, lru, clock};
 // int     createMMU( int);
 int     checkInMemory( int ) ;
 int     allocateFrame( int ) ;
@@ -135,7 +135,7 @@ page    selectVictim(int page_number, enum repl  mode )
 				
 				break;
 			}
-			case random: {
+			case ran: {
 				victim_index = rand() % pageNo;
 			
 
@@ -170,10 +170,11 @@ page    selectVictim(int page_number, enum repl  mode )
 void read_incrementor(int page_number, int n){
 	for (int i = 0; i < n; i++){
 		if (page_table[i].pageNo == page_number){ // if we are at the page being read
+		
 			// update the last used to the current time, for LRU replacement
-
 			page_table[i].last_used = time;
 			time++;
+
 			page_table[i].reference = 1; // set reference bit for clock replacement
 		}
 	}
@@ -185,9 +186,11 @@ void write_incrementor(int page_number, int n){
 		if (page_table[i].pageNo == page_number){ // if we are at the wanted page
 			// we update the time counter and set the modify and reference bit
 			page_table[i].last_used = time; // updating time for LRU
+			time++;
+
 			page_table[i].modified = 1; // marking page as being modified
 			page_table[i].reference = 1; // updating reference for Clock
-			time++;
+			
 		}
 	}
 }
@@ -232,7 +235,7 @@ int main(int argc, char *argv[])
         if (strcmp(argv[3], "lru\0") == 0)
             replace = lru;
 	    else if (strcmp(argv[3], "rand\0") == 0)
-	     	replace = random;
+	     	replace = ran;
 		else if (strcmp(argv[3], "clock\0") == 0)
 			replace = clock;		 
 		else if (strcmp(argv[3], "fifo\0") == 0)
