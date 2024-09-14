@@ -5,7 +5,7 @@ os.system('rm output_file.txt')
 os.system("touch output_file.txt")
 
 files = ['gcc.trace', 'bzip.trace', 'sixpack.trace', 'swim.trace']
-frame_sizes = [i for i in range(2, 60, 2)]
+frame_sizes = [i for i in range(2, 102, 2)]
 replacement_type = ['lru', 'clock', 'rand']
 
 # import pandas as pd
