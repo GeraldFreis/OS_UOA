@@ -1,6 +1,15 @@
 
-creating_server: assignment3
+creating_server_sp1: assignment3 # search pattern 1
 	./assignment3 -l 1234  -p "the"
+
+creating_server_sp2: assignment3 # search pattern 2
+	./assignment3 -l 1234  -p "when"
+
+creating_server_sp3: assignment3 # search pattern 3
+	./assignment3 -l 1234  -p "bird"
+
+creating_server_sp4: assignment3 # search pattern 4
+	./assignment3 -l 1234  -p "cloud"
 
 client1: 
 	nc localhost 1234 -i 2 < aesops_fables.txt
