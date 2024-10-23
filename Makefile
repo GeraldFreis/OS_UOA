@@ -1,7 +1,15 @@
 
-test1: assignment3
-	./assignment3 -l 12345  -p "happy"
-	xterm nc localhost 12345 -i 0.01 < aesops_fables.txt
+creating_server: assignment3
+	./assignment3 -l 1234  -p "the"
+
+client1: 
+	nc localhost 1234 -i 2 < aesops_fables.txt
+
+client2: 
+	nc localhost 1234 -i 2 < metamorphosis_kafka.txt
+
+client3: 
+	nc localhost 1234 -i 2 < rome_and_juliet.txt
 	
-assignment3: assignment3_with_multi.c
-	gcc assignment3_with_multi.c -o assignment3
+assignment3: assignment3.c
+	gcc assignment3.c -o assignment3
