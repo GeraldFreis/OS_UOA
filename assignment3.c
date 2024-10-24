@@ -79,7 +79,7 @@ void add_node(const char *data, int book_id, struct Node **previous_node, struct
 
     // creating the new node
     struct Node *new_node = (struct Node*)malloc(sizeof(struct Node));
-
+    if(data == NULL){data = "";}
     new_node->data = strdup(data);
     new_node->next = NULL;
     new_node->book_id = book_id;
@@ -116,6 +116,8 @@ void add_node(const char *data, int book_id, struct Node **previous_node, struct
 
 int count_occurrences_of_substr(const char *data, const char *s_p)
 {
+    if(data == NULL || s_p == NULL) return 0;
+
     int n = strlen(data);
     int m = strlen(s_p);
     int full_count = 0;
@@ -170,7 +172,7 @@ void *analysis_thread(void *arg)
         // Wait for the analysis interval
         struct timespec ts;
         clock_gettime(CLOCK_REALTIME, &ts);
-        ts.tv_sec += 5;
+        ts.tv_sec += 2;
 
         pthread_cond_timedwait(&analysis_conditional, &linked_list_mutex, &ts);
 
@@ -219,7 +221,7 @@ void *analysis_thread(void *arg)
         }
 
         pthread_mutex_unlock(&linked_list_mutex);
-        sleep(5);
+        sleep(2);
     }
     return NULL;
 }
@@ -231,10 +233,11 @@ void print_book(int book_id)
     int file_book_id = book_id+1;
     
     snprintf( filename, sizeof(filename), "book_%02d.txt", file_book_id); // book_id starts at 0 so need to increment
-    // the above is because if you have more than 10 connections it may output oddly
+    // snprintf( filename, sizeof(filename), "book_01.txt", file_book_id); // book_id starts at 0 so need to increment
 
+    // the above is because if you have more than 10 connections it may output oddly
     struct Node * temp = root;
-    while(temp->book_id != book_id && temp != NULL) // iterating to the first node that is of the same type as we need (this has to be the root)
+    while(temp != NULL && temp->book_id != book_id ) // iterating to the first node that is of the same type as we need (this has to be the root)
     {
         temp = temp->next;
     }
@@ -250,8 +253,8 @@ void print_book(int book_id)
             temporary = temporary->book_next;
         }
         fclose(book);
-
     }
+
 }
 
 // Function for client connection handling (non-blocking reads and storing data)
@@ -293,11 +296,12 @@ void *handle_client(void *client_socket)
 
         if (bytes_read == 0) {
             close(sock);
+            print_book(book_id);
             break;
         }
     }
 
-    print_book(book_id);
+    
 
     return NULL;
 }
@@ -344,12 +348,20 @@ int main(int argc, char *argv[]) {
     listen(server_socket, 20); // 20 because you never know how much you will need
 
     // Accept incoming connections and create new threads for each client
+    int counter = 0;
     while ((client_socket = accept(server_socket, (struct sockaddr *)&client_addr, &client_addr_len)))
     {
+        char filename[20];
+        int file_book_id = counter+1;
+    
+        snprintf( filename, sizeof(filename), "touch book_%02d.txt", file_book_id); // book_id starts at 0 so need to increment
+        int out = system(filename);
+
         pthread_t client_thread;
         pthread_create(&client_thread, NULL, handle_client, &client_socket);
 
         pthread_detach(client_thread); // Detach so we don't need to join
+        counter++;
     }
 
     // Clean up

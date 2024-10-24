@@ -1,4 +1,9 @@
-# How to run server
+# Note
+* To note: gradescope was unhappy with my code (autograder timed out) when partB was not in a zipped file.
+* to run partB for manual marking (i am very sorry) please unzip partB.
+* in partB will be a makefile from which you can use the commands to test my code
+
+# Running server
 In the makefile there are 4 options of commands to run the server, each constituting a test.
 The first option: make creating_server_sp1, runs the server on port 1234 with "the" as the search pattern.
 
